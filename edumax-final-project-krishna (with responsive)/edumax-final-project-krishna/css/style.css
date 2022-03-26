@@ -1,0 +1,2104 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.edumax-header nav {
+	margin: 6px 0;
+}
+
+.nav-item {
+	position: relative;
+}
+
+.navbar-light .navbar-nav > li.active > .nav-link {
+	text-decoration: underline;
+	color: #000;
+}
+
+.edumax-header .navbar-light .navbar-nav .nav-link:after {
+	transition: all .5s;
+}
+
+.edumax-header .navbar-light .navbar-nav .nav-link {
+	color: #000;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 19px;
+	font-family: 'Ubuntu', sans-serif;
+	position: relative;
+
+}
+
+.edumax-header .navbar-light .navbar-nav .nav-link:after {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 1px;
+	content: '';
+	color: transparent;
+	background-color: #179bd7;
+	visibility: none;
+	opacity: 0;
+	z-index: -1;
+}
+
+.edumax-header .navbar-light .navbar-nav .nav-link:hover:after {
+	opacity: 1;
+	visibility: visible;
+	height: 100%;
+}
+
+.edumax-header .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+
+/*
+.banner {
+	background-image: url(../images/banner1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 89px 0 159px;
+}
+*/
+
+/******************************************************heading-font-main*******************************************************/
+
+.banner h1 {
+	font-size: 32px;
+	line-height: 36px;
+	font-weight: 600;
+	padding-bottom: 11px;
+	font-family: 'Arvo', serif;
+	color: #000;
+	text-shadow: 0 2px 4px rgba(41, 48, 59, .25);
+}
+
+.banner p {
+	font-size: 18px;
+	line-height: 22px;
+	text-shadow: 0 2px 4px rgba(41, 48, 59, .15);
+	color: #000;
+	font-weight: 600;
+}
+
+/*****************************************************button****************************************/
+.banner a {
+	background-color: #179bd7;
+	padding: 11px 11px;
+	border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 20px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.banner a:hover {
+	color: #179bd7;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+.banner .carousel-caption {
+	bottom: 28%;
+}
+
+.banner .carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #52aeff;
+}
+
+.banner .carousel-indicators {
+	bottom: 40px;
+}
+
+.banner .carousel-indicators .active {
+	background-color: #179bd7;
+}
+
+.course .course-body h5 {
+	color: #000101;
+	font-family: "Arvo", serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+}
+
+.course .course-body p {
+	color: #8e8e8e;
+	font-size: 14px;
+}
+
+.course .course-body {
+	padding-left: 18px;
+	display: inline-block;
+}
+
+.course {
+	background-color: #f2f2f2;
+	padding: 20px 0 20px;
+	padding: 70px 0 70px 59px;
+}
+
+.course .course-logo img {
+	float: left;
+}
+
+/******************************************************heading-font*******************************************************/
+.course-info {
+	padding: 100px 0;
+}
+
+.course-box img {
+	width: 100%;
+}
+
+.course-info h2 {
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 600;
+	padding-bottom: 34px;
+	font-family: 'Arvo', serif;
+	color: #000;
+
+}
+
+.course-collection h2,
+.testimonial h2 {
+	font-size: 28px;
+	line-height: 60px;
+	font-weight: 600;
+	padding-bottom: 34px;
+	font-family: 'Arvo', serif;
+	color: #fff;
+}
+
+.event h2 {
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 600;
+	padding-bottom: 22px;
+	font-family: 'Arvo', serif;
+	color: #000;
+}
+
+.course-text a {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	font-family: 'Arvo', serif;
+	margin-top: 28px;
+	color: #000;
+	display: inline-block;
+	margin-left: 12px;
+}
+
+.course-text a:hover {
+	color: #179bd7;
+}
+
+.python {
+	color: #179bd7;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 22px 15px;
+}
+
+.python-cost {
+	color: #989696;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 23px 12px;
+}
+
+
+.doller {
+	color: #179bd7;
+}
+
+.girl-img img {
+	border-radius: 50px;
+
+}
+
+.course-box-design {
+	position: relative;
+}
+
+.course-box-design img {
+	width: 100%;
+}
+
+.girl-img img {
+	width: 100%;
+}
+
+.girl-img {
+	position: absolute;
+	border-radius: 50px;
+	top: 49%;
+	left: 21px;
+}
+
+.girl-img h6 {
+	color: #eee;
+	font-size: 13px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.course-info .star i {
+	float: right;
+	color: #f2b827;
+	letter-spacing: 2px;
+
+}
+
+.course-text {
+	background-color: #fff;
+	box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.05);
+	border: 1px solid #e9e6e6;
+}
+
+/*
+.course-text {
+	border-bottom: 1px solid #c4c4c4;
+
+}
+*/
+
+/*********************enroll****************/
+.course-text .enroll {
+	padding: 22px 146px;
+	background-color: #fff;
+	display: inline-block;
+	margin: 1px 0px 0 0;
+	border-top: 1px solid #e5e1e1;
+	color: #000101;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.course-text .enroll:hover {
+	color: #fff;
+	background-color: #179bd7;
+	text-decoration: none;
+
+
+}
+
+
+
+.course-text .buy {
+	padding: 22px 112px;
+	background-color: #fff;
+	display: inline-block;
+	margin: -1px 0 -1px 0px;
+	color: #000101;
+	border-top: 1px solid #e5e1e1;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.course-text .buy:hover {
+	color: #fff;
+	background-color: #179bd7;
+	text-decoration: none;
+
+
+}
+
+.course-collection {
+	background-image: url(../images/bg-img6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 94px 0;
+
+}
+
+.course-collection h4 {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+	padding-top: 10px;
+	font-family: 'Arvo', serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.course-collection p {
+	color: #fff;
+}
+
+.img-text {
+	position: relative;
+}
+
+.text-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px 20px 10px 20px;
+}
+
+.divider-line {
+	height: 1px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.arrow-box {
+	background-color: #179bd7;
+	padding: 12px 0;
+	margin-bottom: 36px;
+}
+
+.arrow {
+	margin-left: 10px;
+	color: #fff;
+}
+
+.arrow-box h6 a {
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+	margin-left: 21px;
+	display: inline-block;
+	font-family: 'Arvo', serif;
+	margin-top: 8px;
+}
+
+.arrow-box h6 a:hover .arrow {
+	color: #000;
+}
+
+.arrow-box a:hover {
+	color: #000;
+}
+
+/*********************************collapse******************************/
+.event {
+	padding: 80px 0;
+}
+
+/*
+.event .accordian .card{
+	border: 1px solid rgb(98, 85, 85);
+margin: 10px 0px;
+border-radius: 5px;
+}
+*/
+.media-body h5 {
+	font-size: 28px;
+	line-height: 32px;
+	padding-bottom: 34px;
+	font-family: 'Arvo', serif;
+	color: #000;
+
+}
+
+.event .card {
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 5px 30px 0 #9e9e9e80;
+	margin-bottom: 14px;
+	margin: 10px 0px;
+}
+
+.event .card-header {
+	border: none;
+}
+
+.event .accordion .card .card-header h2 .event-date {
+	font-weight: 600;
+
+	font-family: 'Arvo', serif;
+	color: #000;
+}
+
+.event .accordion .card .card-header .btn:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+.event .accordion .card-header {
+	background-color: #fff;
+}
+
+.student-data {
+	background-color: #f9f9f9;
+	padding: 55px 0;
+}
+
+.student-data h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	color: #179bd7;
+}
+
+.student-data h4 {
+
+	font-family: 'Arvo', serif;
+	color: #000;
+	font-size: 15px;
+}
+
+.testimonial {
+	background: linear-gradient(to right, #6e1a52 0%, #1836e0 98%);
+	padding: 80px 0;
+}
+
+.box {
+	background-color: #fff;
+	padding: 30px 6px 13px 31px;
+
+}
+
+.box img {
+	margin-bottom: 29px;
+}
+
+.testimonial .owl-carousel .owl-item img {
+	width: auto;
+	display: inline-block;
+}
+
+.testimonial .owl-theme .owl-nav {
+	display: none;
+}
+
+.testimonial .owl-theme .owl-dots .owl-dot.active span {
+	background: #a2137f;
+}
+
+.testimonial .owl-theme .owl-dots .owl-dot span {
+	background: #f48fdbad;
+}
+
+.testimonial .owl-theme .owl-dots {
+	padding-top: 40px;
+}
+
+.author {
+	margin-left: 17px;
+	display: inline-block;
+}
+
+.author h5 {
+	font-family: 'Arvo', serif;
+	color: #000;
+	font-size: 15px;
+	font-weight: 600;
+
+}
+
+.author-title {
+	color: #858383;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.text-box-author h4 {
+	font-family: 'Arvo', serif;
+	font-size: 19px;
+
+	color: #179bd7;
+}
+
+.text-box-author {
+	padding-top: 16px;
+	border-top: 1px solid #d6d6d9;
+	margin-top: 17px;
+	margin-right: 23px;
+}
+
+.text-box-author p {
+	font-family: 'Ubuntu', sans-serif;
+	color: #858687;
+	font-size: 14px;
+
+}
+
+.get-start {
+	background-color: #179bd7;
+	padding: 40px 0;
+}
+
+.get-start h4 {
+	font-family: 'Arvo', serif;
+	font-size: 20px;
+	margin-top: 5px;
+	color: #fff;
+	line-height: 24px;
+	font-weight: 600;
+}
+
+.get-text {
+	padding-top: 11px;
+}
+
+.get-start p {
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	font-size: 14px;
+}
+
+.get-button {
+	background-color: #fff;
+	padding: 14px 17px;
+	border-radius: 25px;
+	color: #000;
+	text-transform: uppercase;
+	margin-top: 17px;
+	text-decoration: none;
+	font-weight: 600;
+	display: inline-block;
+	font-family: 'Arvo', serif;
+	float: right;
+
+}
+
+.footer-bg {
+	background-image: url(../images/footer-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.top-footer {
+	padding: 110px 0;
+}
+
+.footer-left li p {
+	color: #999;
+	padding-top: 32px;
+
+}
+
+.head a {
+	color: #fff;
+	font-family: 'Arvo', serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.head {
+	color: #fff;
+	font-family: 'Arvo', serif;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	margin-bottom: 41px;
+
+}
+
+.footer-left li i {
+	margin-right: 9px;
+}
+
+.footer-left li a {
+	color: #999;
+}
+
+.right-footer h6 {
+	color: #999;
+
+
+}
+
+input {
+	width: 79%;
+	padding: 11px 4px;
+}
+
+input:focus {
+	box-shadow: none;
+}
+
+form {
+	padding: 10px 0;
+}
+
+.sign-up a {
+	display: inline-block;
+	color: #fff;
+	padding: 13px 109px;
+	background-color: #007bff;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.sign-up a:hover {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	font-weight: 600;
+}
+
+.footer-left li a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.bottomline {
+	border-top: 1px solid #999999;
+}
+
+.bottom-footer p {
+	color: #999;
+
+}
+
+.bottom-logo li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.blue {
+	color: #179bd7;
+}
+
+.bottom-logo li a {
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	display: inline-block;
+	padding: 0px;
+	color: #fff;
+	background-color: #1d1c1c;
+	border-radius: 50px;
+}
+
+.bottom-footer {
+	padding: 26px 0 22px 0;
+}
+
+.bottom-logo li a:hover {
+	background-color: #fff;
+	color: #1d1c1c;
+
+}
+
+/*************************************course-menu-css************************************************************/
+.course-banner {
+	background-image: url(../images/course-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 140px;
+}
+
+.course-banner a {
+	color: #fff;
+	font-family: "Arvo", serif;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	display: inline-block;
+}
+
+.course-banner a:hover {
+	text-shadow: 6px 6px 12px rgba(252, 252, 252, 0.86);
+	text-decoration: none;
+	color: #fff;
+}
+
+.learn-box img {
+	width: 100%;
+}
+
+.learn-info form input {
+	border: none;
+	border-bottom: 2px solid #e4e4e4;
+	color: #999999;
+	border-radius: 0;
+	position: relative;
+	width: 102%;
+	margin-left: -16px;
+}
+
+.learn-info form input:focus {
+	box-shadow: none;
+}
+
+.learn-info .search {
+	font-size: 19px;
+}
+
+.search {
+	position: absolute;
+	top: 21px;
+	left: 97%;
+
+}
+
+.learn-info {
+	padding: 100px 0;
+}
+
+.learn-info h2 {
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 600;
+	padding-bottom: 34px;
+	font-family: 'Arvo', serif;
+	color: #000;
+
+}
+
+.event h2 {
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 600;
+	padding-bottom: 22px;
+	font-family: 'Arvo', serif;
+	color: #000;
+}
+
+.learn-text a {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	font-family: 'Arvo', serif;
+	margin-top: 28px;
+	color: #000;
+	display: inline-block;
+	margin-left: 12px;
+}
+
+.learn-text a:hover {
+	color: #179bd7;
+}
+
+.python-course {
+	color: #179bd7;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 34px 12px 29px;
+}
+
+.python-cost-course {
+	color: #179bd7;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	margin: 13px 12px 29px;
+}
+
+.python-course s {
+	color: #9999;
+	margin-right: 7px;
+}
+
+.doller-course {
+	color: #179bd7;
+}
+
+.girl-img-course img {
+	border-radius: 50px;
+
+}
+
+.learn-box {
+	position: relative;
+}
+
+.girl-img-course {
+	position: absolute;
+	border-radius: 50px;
+	top: 47%;
+	left: 21px;
+}
+
+.girl-img-course h6 {
+	color: #eee;
+	font-size: 13px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.learn-info .star-course i {
+	float: right;
+	color: #f2b827;
+	letter-spacing: 2px;
+
+}
+
+.learn-text {
+	background-color: #fff;
+	box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.05);
+	border: 1px solid #e9e6e6;
+}
+
+.learn-text .enroll-course {
+	padding: 17px 151px;
+	background-color: #fff;
+	display: inline-block;
+	margin: 1px 0px 0 0;
+	border-top: 1px solid #e5e1e1;
+	color: #000101;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.learn-text .enroll-course:hover {
+	color: #fff;
+	background-color: #179bd7;
+	text-decoration: none;
+
+}
+
+.learn-text .buy-course {
+	padding: 18px 117px;
+	background-color: #fff;
+	display: inline-block;
+	margin: -1px 0 -1px 0px;
+	color: #000101;
+	border-top: 1px solid #e5e1e1;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.learn-text .buy-course:hover {
+	color: #fff;
+	background-color: #179bd7;
+	text-decoration: none;
+
+}
+
+/*************************************************************course-menu-end*******************************************************/
+/*************************************************************about-us-menu-end*******************************************************/
+.about-us-banner {
+	background-image: url(../images/about-us-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 140px 0;
+}
+
+.about-us-banner a {
+	color: #fff;
+	font-family: "Arvo", serif;
+	font-size: 24px;
+	font-weight: 600;
+	display: inline-block;
+}
+
+.about-us-banner a:hover {
+	text-shadow: 1px 3px 10px rgba(252, 253, 254, 0.69);
+	text-decoration: none;
+	color: #fff;
+}
+
+.our-moto {
+	padding: 100px 0;
+}
+
+.our-moto img {
+	width: 100%;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.our-moto h3 {
+	font-family: "Arvo", serif;
+	font-weight: 600;
+	text-shadow: -3px 0 8px rgba(14, 15, 17, 0.38);
+}
+
+.our-moto p {
+	font-family: 'Ubuntu', sans-serif;
+	color: #999999;
+	margin-top: 9px;
+
+}
+
+.moto-read-more {
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	font-family: "Arvo", serif;
+	padding: 10px 14px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-top: 13px;
+
+}
+
+.moto-read-more:hover {
+	text-decoration: none;
+	background-color: #179bd7;
+	color: #fff;
+}
+
+.our-moto .moto-content {
+	padding-left: 61px;
+}
+
+.about-us-service {
+	background-color: #000;
+	text-align: center;
+	padding: 94px 0;
+}
+
+.about-us-service h3 {
+	color: #fff;
+	font-family: "Arvo", serif;
+	font-weight: 600;
+	text-align: center;
+}
+
+.about-us-service p {
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 36px;
+}
+
+.about-logo-box {
+	border: 1px solid #fff;
+	padding: 9px;
+	float: left;
+}
+
+.about-service-text h6 {
+	font-family: "Arvo", serif;
+	color: #fff;
+	text-align: left;
+
+}
+
+.about-service-text p {
+
+	color: #fff;
+	text-align: left;
+
+
+}
+
+.about-service-text {
+	margin-left: 95px;
+}
+
+.service-logo {
+	padding: 28px 28px 8px;
+	border-radius: 4px;
+}
+
+.service-logo:hover {
+	background-color: #179bd7;
+}
+
+.about-us-video {
+	padding: 80px 0;
+}
+
+.about-us-video h5 {
+	font-family: "Arvo", serif;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 32px;
+	margin-right: 147px;
+}
+
+.about-us-video p {
+	color: #999999;
+	margin: 44px 0;
+}
+
+.video-read-more {
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	font-family: "Arvo", serif;
+	padding: 10px 14px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-top: 17px;
+
+}
+
+.video-read-more:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #999999;
+}
+
+.video-text {
+	margin-left: 40px;
+}
+
+/**********************about-us-menu- end******************************/
+/*************************************shop-css****************************************/
+.shop-banner {
+	background-image: url(../images/shop-banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.shop-banner a {
+	color: #fff;
+	font-family: "Arvo", serif;
+	font-size: 24px;
+	font-weight: 600;
+	display: inline-block;
+	padding: 140px 0;
+}
+
+.shop-banner a:hover {
+	text-shadow: 9px 7px 13px rgba(252, 252, 252, 0.86);
+	text-decoration: none;
+	color: #fff;
+}
+
+/**************************transition********************/
+.shop-image {
+	width: 100%;
+	position: relative;
+	-o-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.shop-image:hover {
+	-o-transform: scaleX(-1);
+	-ms-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+
+.shop {
+	padding: 80px 0;
+}
+
+.sticker {
+	position: absolute;
+	color: #fff;
+	left: 28px;
+	top: 8px;
+	font-size: 10px;
+	font-weight: 600;
+	border-radius: 100%;
+	text-transform: uppercase;
+	background-color: #f00;
+	padding: 10px 8px;
+}
+
+.product {
+	font-family: "Arvo", serif;
+	color: #000;
+	padding: 16px 0;
+	display: inline-block;
+}
+
+.product:hover {
+	text-decoration: none;
+	color: #179bd7;
+}
+
+.cart {
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 12px 36px;
+	background-color: #000;
+	color: #fff;
+	margin-top: 12px;
+	margin-bottom: 36px;
+}
+
+.cart:hover {
+	text-decoration: none;
+	background-color: #179bd7;
+	color: #fff;
+}
+
+.amount {
+	margin-bottom: 12px;
+}
+
+/*************************************shop-css-end****************************************/
+/*********************contact-us-css**********************/
+.contact-us {
+	background-image: url(../images/contact-us-banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contact-us a {
+	color: #fff;
+	font-family: "Arvo", serif;
+	font-size: 24px;
+	font-weight: 600;
+	display: inline-block;
+	padding: 140px 0;
+}
+
+.contact-us a:hover {
+	text-shadow: 1px 0px 8px rgba(252, 252, 252, 0.86);
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.our-office {
+	padding: 80px 0;
+
+}
+
+.our-office h1 {
+	text-align: center;
+	color: #000;
+	font-family: "Arvo", serif;
+	font-size: 32px;
+	line-height: 36px;
+	padding: 10px 0;
+
+}
+
+.our-office p {
+	text-align: center;
+	color: #000;
+	font-family: "Arvo", serif;
+	padding-bottom: 30px;
+}
+
+.office-info h5 {
+	margin: 12px 0;
+	font-family: "Arvo", serif;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+
+}
+
+.office-info h6 {
+	color: #999999;
+	padding: 0 5px;
+
+}
+
+.office-info {
+	padding: 38px 0;
+}
+
+.office-info:hover {
+	box-shadow: 0px 10px 20px 7px rgba(0, 0, 0, 0.1);
+	transition: all 0.2s;
+}
+
+/*
+.map-wrap{
+	width: 100%;
+}
+*/
+.map-wrapper iframe {
+	width: 100%;
+	margin-bottom: 0;
+	padding: 0;
+	display: block;
+}
+
+/****************contact-form*****************/
+.contact-form {
+	padding: 80px 0;
+
+}
+
+.contact-form h1 {
+	text-align: center;
+	color: #000;
+	font-family: "Arvo", serif;
+	font-size: 32px;
+	line-height: 36px;
+	padding: 10px 0;
+
+}
+
+.contact-form p {
+	text-align: center;
+	color: #000;
+	font-family: "Arvo", serif;
+	padding-bottom: 30px;
+}
+
+/*
+.contact-form-info {
+	display: block;
+	width: 65%;
+	margin: 0 auto;
+}
+*/
+
+.contact-form .contact-form-info {
+	margin: 20px auto;
+	display: block;
+	width: 65%;
+}
+
+.contact-form-info .form-control:focus {
+	box-shadow: none;
+}
+
+.contact-form-info .btn {
+	display: inline-block;
+	width: 100%;
+	margin-top: 41px;
+	border: 1px solid #ced4da;
+	background-color: #179bd7;
+	color: #fff;
+}
+
+.contact-form-info .btn:focus {
+	box-shadow: none;
+}
+
+.contact-form-info .btn:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+.contact-form-info label {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: left;
+}
+
+/**************************responsive********************/
+/*
+@media only screen and (max-width: 1200px) {
+	.banner .carousel-caption {
+		left: 5%;
+	}
+}
+*/
+
+@media only screen and (max-width: 1199px) {
+	.girl-img {
+		position: absolute;
+		border-radius: 50px;
+		top: 44%;
+		left: 21px;
+	}
+
+	.course-text .enroll {
+		padding: 22px 116px;
+		background-color: #fff;
+		display: inline-block;
+		margin: 1px 0px 0 0;
+		border-top: 1px solid #e5e1e1;
+		color: #000101;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 15px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	.course-text .buy {
+		padding: 22px 82px;
+		background-color: #fff;
+		display: inline-block;
+		margin: -1px 0 -1px 0px;
+		color: #000101;
+		border-top: 1px solid #e5e1e1;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 15px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	.service-logo {
+		padding: 28px 14px 8px;
+	}
+
+	.about-service-text {
+		margin-left: 20px;
+	}
+
+	input {
+		width: 96%;
+	}
+
+	.learn-text .buy-course {
+		padding: 18px 87px;
+	}
+
+	.learn-text .enroll-course {
+		padding: 17px 121px;
+	}
+
+	.girl-img-course {
+		top: 40%;
+	}
+
+	.python-res {
+		margin: 13px 12px 29px;
+
+	}
+}
+
+/*************************responsive-991px************************************/
+@media only screen and (max-width: 991px) {
+
+	.edumax-header .navbar-light .navbar-nav .nav-link:hover::after {
+		opacity: 0;
+	}
+
+	.banner p {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.edumax-header .navbar-light .navbar-nav .nav-link:hover {
+		color: #179bd7;
+	}
+
+	.banner h1 {
+		font-size: 24px;
+		line-height: 28px;
+		font-weight: 600;
+		padding-bottom: 11px;
+		font-family: 'Arvo', serif;
+		color: #000;
+		text-shadow: 0 2px 4px rgba(41, 48, 59, .25);
+	}
+
+	.course-info h2 {
+		font-size: 25px;
+		line-height: 29px;
+	}
+
+	.course-text a {
+		font-size: 15px;
+	}
+
+	.girl-img img {
+		width: 44%;
+	}
+
+	.girl-img {
+		top: 34%;
+	}
+
+	.course .course-body {
+		padding-top: 15px;
+		padding-left: 0;
+	}
+
+	.course .course-body h5 {
+		font-size: 15px;
+		line-height: 19px;
+	}
+
+	.course-text .buy {
+		padding: 22px 42px;
+	}
+
+
+	.course-text .enroll {
+		padding: 22px 76px;
+	}
+
+	.python-cost {
+		font-size: 14px;
+		line-height: 18px;
+		margin: 24px 12px;
+	}
+
+	.python {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.course-collection h4 {
+		font-size: 16px;
+		padding-top: 20px;
+	}
+
+	.course-box-design p {
+		font-size: 14px;
+	}
+
+	.text-box {
+		top: -42px;
+	}
+
+	.arrow-box h6 a {
+		font-size: 14px;
+	}
+
+	.media-body h5 {
+		font-size: 21px;
+		line-height: 25px;
+		padding-bottom: 5px;
+	}
+
+	.event-res {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.img-res {
+		width: 34%
+	}
+
+	.sign-up a {
+		padding: 13px 71px;
+	}
+
+	.bottom-footer p {
+		font-size: 14px;
+	}
+
+	.footer-left li p {
+		color: #999;
+		padding-top: 20px;
+		font-size: 13px;
+	}
+
+	.footer-left li img {
+		width: 61%;
+		margin-top: -13px;
+	}
+
+	.footer-left li p {
+		font-size: 13px;
+	}
+
+	.footer-left {
+		font-size: 12px;
+	}
+
+	.head {
+		font-size: 12px;
+		display: block;
+		margin-bottom: 26px;
+	}
+
+	.right-footer h6 {
+		font-size: 12px;
+	}
+
+	input {
+		width: 96%;
+		padding: 8px 4px;
+	}
+
+	.sign-up a {
+		padding: 8px 72px;
+	}
+
+	/*************course-page-responsive************/
+	.learn-text a {
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 19px;
+	}
+
+	.python-course {
+		font-size: 14px;
+		line-height: 18px;
+		margin: 13px 12px 29px;
+	}
+
+	.python-cost-course {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.learn-text .buy-course {
+		padding: 18px 47px;
+	}
+
+	.learn-text .enroll-course {
+		padding: 17px 81px;
+	}
+
+	.girl-img-course {
+		top: 35%;
+	}
+
+	.girl-img-course img {
+		width: 41%;
+	}
+
+	.our-moto .moto-content {
+		padding-left: 18px;
+	}
+
+	.our-moto h3 {
+		font-size: 23px;
+		line-height: 27px;
+	}
+
+	.our-moto p {
+		font-size: 15px;
+	}
+
+	.about-logo-box {
+		padding: 5px;
+	}
+
+	.about-logo-box img {
+		width: 35px;
+	}
+
+	.about-service-text h6 {
+		font-size: 15px;
+		line-height: 19px;
+
+	}
+
+	.about-service-text {
+		margin-left: -3px;
+		margin-top: 60px;
+	}
+
+	.service-logo {
+		padding: 28px 10px 0px;
+	}
+
+
+	iframe {
+		width: 100%;
+
+	}
+
+	.about-us-video h5 {
+		font-size: 24px;
+		line-height: 28px;
+		margin-right: -13px;
+	}
+
+	.about-us-video p {
+		margin: 22px 0;
+	}
+
+	.cart {
+		padding: 12px 13px;
+	}
+
+	/****************responsive-991px-end********************/
+}
+
+/****************responsive-767px-start*******************/
+@media only screen and (max-width: 767px) {
+	.banner .carousel-caption {
+		bottom: 17%;
+		left: 20%;
+	}
+
+	.banner h1 {
+		font-size: 22px;
+		line-height: 26px;
+		padding-bottom: 8px;
+	}
+
+	.banner p {
+		font-size: 15px;
+		line-height: 19px;
+	}
+
+	.course-logo {
+		padding: 0 74px;
+	}
+
+	.course .course-body {
+		padding-top: 5px;
+		padding-left: 24px;
+
+	}
+
+	.banner .carousel-indicators {
+		bottom: 3px;
+	}
+
+	.course-text .enroll {
+		padding: 14px 48px;
+		font-size: 14px;
+	}
+
+	.course-text .buy {
+		padding: 14px 16px;
+		font-size: 14px;
+	}
+
+	.course-text a {
+		font-size: 13px;
+	}
+
+	.course-text .star-zero {
+		visibility: hidden;
+	}
+
+	.course-info .star i {
+		margin-top: 2px;
+	}
+
+	.girl-img img {
+		width: 31%;
+	}
+
+	.girl-img h6 {
+		color: #eee;
+		font-size: 12px;
+	}
+
+	.girl-img {
+		top: 30%;
+	}
+
+	.course-text .rx-res {
+		line-height: 43px;
+	}
+
+	.media-body h5 {
+		font-size: 16px;
+		line-height: 20px;
+		padding-bottom: 5px;
+	}
+
+	.event-res {
+		font-size: 13px;
+		line-height: 17px;
+	}
+
+	/*
+	.event-sm {
+		visibility: hidden;
+	}
+	.collapse-small{
+		margin-bottom: -160px;
+	}
+*/
+
+	.author-title {
+		font-size: 15px;
+	}
+
+	.footer-left li img {
+		width: 29%;
+	}
+
+	.footer-left li p {
+		font-size: 13px;
+		margin-right: 311px;
+	}
+
+	.right-footer h6 {
+		margin-top: 3px;
+	}
+
+	input {
+		width: 40%;
+	}
+
+	.bottom-footer p {
+		text-align: center;
+	}
+
+	.bottom-logo {
+		padding-right: 143px;
+	}
+
+	/*************course-767****************/
+	.learn-text a {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 22px;
+		font-family: 'Arvo', serif;
+		margin-top: 28px;
+		color: #000;
+		display: inline-block;
+		margin-left: 12px;
+	}
+
+	.python-course {
+		color: #179bd7;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 34px 12px 29px;
+	}
+
+	.python-cost-course {
+		color: #179bd7;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 18px;
+		line-height: 22px;
+		margin: 13px 12px 29px;
+	}
+
+	.python-course s {
+		color: #9999;
+		margin-right: 7px;
+	}
+
+	.girl-img-course h6 {
+		color: #eee;
+		font-size: 13px;
+		padding-top: 10px;
+		padding-left: 5px;
+	}
+
+	.learn-text .enroll-course {
+		padding: 17px 244px;
+		background-color: #fff;
+		display: inline-block;
+		margin: 1px 0px 0 0;
+		border-top: 1px solid #e5e1e1;
+		color: #000101;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 15px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+
+	.learn-text .buy-course {
+		padding: 18px 210px;
+	}
+
+	.buy-course.button-small {
+		padding: 18px 207px;
+	}
+
+	.learn-box {
+		margin-bottom: 42px;
+	}
+
+	.learn-box-small {
+		margin-bottom: 1px;
+	}
+
+	.girl-img-course img {
+		width: 59%;
+	}
+
+	.girl-img-course {
+		top: 60%;
+	}
+
+	.course-collection-box {
+		margin: 30px;
+	}
+
+	.text-box {
+		top: 0;
+	}
+
+	/**********************about-us**************************/
+	.our-moto h3 {
+		margin: 25px 0;
+	}
+
+	.service-logo {
+		padding: 28px 21px 8px;
+	}
+
+	.video-text {
+		margin-left: 0px;
+		margin-top: 14px;
+	}
+
+	/****************responsive-767px-start*******************/
+
+}
+
+/****************responsive-575px-start*******************/
+@media only screen and (max-width: 575px) {
+
+	.banner .carousel-caption {
+		left: 5%;
+		top: -4%;
+	}
+
+	.banner h1 {
+		font-size: 18px;
+		line-height: 22px;
+		padding-bottom: 1px;
+	}
+
+	.banner p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.banner a {
+		background-color: #179bd7;
+		padding: 8px 8px;
+		border-radius: 5px;
+		color: #fff;
+		text-transform: uppercase;
+		margin-top: -4px;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 13px;
+	}
+
+	.course-box {
+		margin: 63px;
+	}
+
+	.course-text a {
+		font-size: 18px;
+	}
+
+	.python {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.python-cost {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.course-text .enroll {
+		font-size: 16px;
+		padding: 14px 178px;
+	}
+
+	.course-text .buy {
+		font-size: 15px;
+		padding: 14px 146px;
+	}
+
+	.course-text .star-zero {
+		visibility: visible;
+	}
+
+	.girl-img img {
+		width: 60%;
+	}
+
+	.girl-img {
+		left: 96px;
+		top: 60%;
+	}
+
+	.course-text {
+		margin-bottom: -57px;
+	}
+
+	.course-collection-box {
+		margin: 65px;
+	}
+
+	.course-collection h2 {
+		padding-bottom: 0;
+	}
+
+	input {
+		width: 37%;
+	}
+
+	.head {
+		margin-bottom: 14px;
+		margin-top: 8px;
+	}
+
+	.course-banner {
+		padding: 72px;
+	}
+
+	.learn-info form input {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.search {
+		left: 93%;
+	}
+
+	.learn-box {
+		margin-bottom: 42px;
+		padding: 11%;
+	}
+
+	.learn-text .buy-course {
+		padding: 18px 161px;
+	}
+
+	.learn-text .enroll-course {
+		padding: 17px 195px;
+	}
+
+	.girl-img-course {
+		top: 63%;
+		left: 75px;
+	}
+
+	.learn-text {
+		margin-bottom: -99px;
+	}
+
+	.about-us-banner {
+		padding: 72px;
+	}
+
+	.shop-banner a {
+		padding: 72px;
+	}
+
+	.shop-info {
+		margin: 41px;
+	}
+
+	.sticker {
+		left: 70px;
+		top: 51px;
+	}
+
+	.product {
+		margin-left: 41px;
+		padding: 0 0 12px 0;
+	}
+
+	.amount {
+		margin-left: 41px;
+	}
+
+	.cart {
+		margin-left: 41px;
+	}
+
+	.contact-us a {
+		padding: 72px;
+	}
+
+	.office-info {
+		margin: 0 40px;
+	}
+
+	/****************responsive-575px-end*******************/
+
+}
+
+/****************responsive-480px-start*******************/
+@media only screen and (max-width: 480px) {
+	.banner h1 {
+		font-size: 16px;
+		line-height: 20px;
+		padding-bottom: 0;
+	}
+
+	.banner p {
+		font-size: 13px;
+		line-height: 17px;
+	}
+
+	.banner a {
+		padding: 7px 6px;
+		margin-top: -6px;
+		font-size: 11px;
+	}
+
+	.banner .carousel-indicators {
+		top: 117px;
+	}
+
+	.course-logo {
+		padding: 0 25px;
+	}
+
+	.course-text .enroll {
+		padding: 14px 131px;
+	}
+
+	.course-text .buy {
+		padding: 14px 98px;
+	}
+
+	.girl-img {
+		top: 53%;
+	}
+
+	.arrow-box {
+		margin-bottom: -68px;
+	}
+
+	input {
+		width: 45%;
+	}
+
+	.bottom-logo {
+		padding-right: 119px;
+	}
+
+	.learn-text .buy-course {
+		padding: 18px 124px;
+	}
+
+	.learn-text .enroll-course {
+		padding: 17px 158px;
+	}
+
+	.girl-img-course {
+		top: 60%;
+	}
+
+	/****************responsive-480px-end*******************/
+}

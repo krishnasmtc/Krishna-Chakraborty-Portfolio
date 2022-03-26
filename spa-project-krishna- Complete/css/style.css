@@ -1,0 +1,716 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 P {
+    margin: 0
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*****************************************************page-header strat**************************************************/
+.page-header {
+    padding: 5px 0;
+}
+
+.page-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.menu li {
+    padding-top: 55px;
+}
+
+.menu a {
+    color: #000;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.menu a:hover {
+    color: #ff817e;
+    border-bottom: 1px dotted #ff817e;
+}
+
+/*****************************************************page-header strat**************************************************/
+/*****************************************************banner strat**************************************************/
+
+.banner {
+    padding: 200px 0;
+    background-image: url(../images/banner-2.png), url(../images/banner-1.png);
+    background-size: 12%, 38%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right top;
+}
+
+.banner h6 {
+    font-family: 'Rufina', serif;
+    font-weight: 400;
+    color: #ff817e;
+    padding-bottom: 30px;
+}
+
+.banner h1 {
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.banner p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+
+}
+
+.vdo i {
+    color: #ff817e;
+    background-color: #fcf5ee;
+    border-radius: 50%;
+    padding: 15px 15px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn-1 {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ff817e;
+    padding: 12px 30px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.btn-1:hover {
+    color: #fff;
+}
+
+.line i {
+    color: #fff;
+    padding-left: 10px;
+}
+
+/*****************************************************banner end**************************************************/
+/*****************************************************about strat**************************************************/
+.about {
+    padding: 100px 0;
+    background-image: url(../images/flower-1.png), url(../images/flower-2.png);
+    background-size: 10%, 8%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+}
+
+.about h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #929292;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.about h3 {
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    padding-bottom: 20px;
+}
+
+.about p {
+    color: #929292;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #929292;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 20px;
+}
+
+.btn-2 {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ff817e;
+    padding: 12px 30px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.btn-2:hover {
+    color: #fff;
+}
+
+/*****************************************************about end**************************************************/
+/*****************************************************propular strat**************************************************/
+.propular {
+    padding: 100px 0;
+}
+
+.propular h3 {
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    padding-bottom: 20px;
+}
+
+.propular p {
+    color: #929292;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #929292;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 50px;
+}
+
+.propular-box h4 {
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 20px 0;
+}
+
+.propular-box p {
+    color: #929292;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #929292;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+
+.btn-3 {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #767b7d;
+    padding: 12px 30px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.btn-3:hover {
+    color: #fff;
+    background-color: #ff817e;
+}
+
+.btn-4 {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #767b7d;
+    padding: 12px 30px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.btn-4:hover {
+    color: #fff;
+    background-color: #ff817e;
+}
+
+.btn-5 {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #767b7d;
+    padding: 12px 30px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.btn-5:hover {
+    color: #fff;
+    background-color: #ff817e;
+}
+
+.propular-box {
+    border: 1px solid #e3e6ea;
+    padding: 45px 15px;
+}
+
+.propular-box:hover {
+    box-shadow: 2px 2px 20px 20px #dfd9d966;
+}
+
+/*****************************************************propular end**************************************************/
+/*****************************************************jack strat**************************************************/
+.jack {
+    padding: 100px 0;
+    background-color: #fff9f8;
+}
+
+.girl-img {
+    border-radius: 50%;
+}
+
+.jack p {
+    color: #929292;
+    font-family: 'Rufina', serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 25px 0;
+}
+
+.jack h6 {
+    font-family: 'Rufina', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 20px;
+}
+
+.word {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*****************************************************jack end**************************************************/
+/*****************************************************team strat**************************************************/
+.team {
+    padding: 150px 0;
+}
+
+.team h3 {
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    padding-bottom: 20px;
+}
+
+.team p {
+    color: #929292;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #929292;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 50px;
+}
+
+.team-box {
+    position: relative;
+}
+
+.team-content {
+    position: absolute;
+    content: "";
+    top: 360px;
+    bottom: 0;
+    left: 14px;
+    right: 0px;
+    background-color: #fff;
+    padding: 22px 10px;
+    width: 92%;
+    height: 170px;
+}
+
+.team-content:hover {
+    box-shadow: 2px 2px 20px 20px #dfd9d966;
+    top: 290px;
+    bottom: 0;
+    left: 20px;
+    right: 0px;
+    background-color: #fff;
+    padding: 22px 10px;
+    width: 92%;
+    height: 200px;
+}
+
+.team-content h6 {
+    padding-top: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #929292;
+}
+
+.team-content h5 {
+    padding-top: 12px;
+    font-family: 'Rufina', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+
+.icon {
+    opacity: 0;
+    margin-top: 24px;
+}
+
+.team-content:hover .icon {
+    opacity: 1;
+}
+
+.icon i {
+    color: #000;
+}
+
+.fb {
+    border: 1px solid #000;
+    padding: 11px 15px;
+    border-radius: 64%;
+}
+
+.tw {
+    border: 1px solid #000;
+    padding: 11px 12px;
+    border-radius: 64%;
+}
+
+.gg {
+
+    border: 1px solid #000;
+    padding: 11px 10px;
+    border-radius: 64%;
+}
+
+.ins {
+    border: 1px solid #000;
+    padding: 11px 13px;
+    border-radius: 64%;
+}
+
+.fb:hover {
+    color: #fff;
+    background-color: #ff817e;
+    border: none;
+}
+
+.tw:hover {
+    color: #fff;
+    background-color: #ff817e;
+    border: none;
+}
+
+.gg:hover {
+    color: #fff;
+    background-color: #ff817e;
+    border: none;
+}
+
+.ins:hover {
+    color: #fff;
+    background-color: #ff817e;
+    border: none;
+}
+
+/*****************************************************team end**************************************************/
+/*****************************************************fill-up strat**************************************************/
+.fill-up {
+    padding: 0 100px;
+    background-color: #fff9f8;
+}
+
+.fill-up img {
+    width: 100%
+}
+
+/*
+.first {
+    display: inline-block;
+}
+
+.second {
+    display: inline-block;
+}
+
+.first h6 {
+    border-bottom: 1px solid #a9a8a7;
+    color: #a9a8a7;
+    padding: 16px 0;
+    font-size: 14px;
+    line-height: 18px;
+      font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.second h6 {
+    border-bottom: 1px solid #a9a8a7;
+    color: #a9a8a7;
+    padding: 16px 0;
+    font-size: 14px;
+    line-height: 18px;
+      font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.first {
+    display: inline-block;
+    padding-top: 50px;
+    width: 50%;
+    padding-right: 5px;
+}
+*/
+/*
+.second {
+    display: inline-block;
+    padding-top: 50px;
+    width: 49%;
+    padding-left: 5px;
+}
+.fill-up i {
+   color:#a9a8a7;
+}
+.one {
+      border-bottom: 1px solid #a9a8a7;
+    color: #a9a8a7;
+    padding: 16px 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+.btn-6 {
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ff817e;
+    padding: 15px 30px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top:15px;
+  
+}
+.btn-6:hover {
+    color:#fff;
+}
+*/
+/*****************************************************fill-up end**************************************************/
+/*****************************************************get strat**************************************************/
+.get {
+    padding: 100px 0;
+}
+
+.get h3 {
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    padding-bottom: 20px;
+}
+
+.get p {
+    color: #929292;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #929292;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 50px;
+}
+
+.media-body {
+    padding-left: 20px;
+    color: #a9a8a7;
+    padding-bottom: 50px;
+}
+
+.media-body h6 {
+    padding: 4px 0;
+    color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.mapi {
+    color: #fff;
+    background-color: #ff817e;
+    padding: 13px 18px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-top: 6px;
+}
+
+.env {
+    color: #fff;
+    background-color: #ff817e;
+    padding: 14px 14px;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+.tab {
+    color: #fff;
+    background-color: #ff817e;
+    padding: 13px 17px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-top: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 2px;
+    border: none;
+    border: 1px solid #e3e6ea;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.form-group input[type="submit"] {
+    width: 192px;
+    padding: 22px 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    border: none;
+    background-color: #ff817e;
+    color: #fff;
+    border-radius: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+.get textarea {
+    width: 100%;
+    padding: 30px 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: none;
+    border: 1px solid #e3e6ea;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/*****************************************************get end**************************************************/
+/*****************************************************page-footer strat**************************************************/
+.page-footer {
+    padding: 20px 0;
+    background-color: #fff9f8;
+}
+
+.page-footer img {
+    padding-bottom: 10px;
+}
+
+.menu-2 a {
+    color: #263a41;
+    margin: 0 35px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 40px 0;
+}
+
+.menu-2 {
+    display: inline-block;
+}
+
+.icon-box {
+    display: inline-block;
+}
+
+.icon-box a {
+    color: #263a41;
+    font-size: 20px;
+
+}
+
+.icon-box a:hover {
+    color: #ff817e;
+}
+
+.touch {
+    color: #ff817e;
+}
+
+.poem {
+    padding-top: 50px;
+    color: #929292;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #929292;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.icon-box a {
+    color: #000;
+    font-size: 20px;
+    border-right: 1px solid #000;
+    padding: 0 15px;
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+
+.jack .owl-theme .owl-nav {
+    display: none;
+}
+
+.jack .owl-theme .owl-dots {
+    margin-top: 30px;
+}
+
+.jack .owl-theme .owl-dots .owl-dot span {
+    background-color: #f88ebfcc;
+}
+
+.jack .owl-theme .owl-dots .owl-dot.active span {
+    background-color: #fc05ab;
+}
+
+.gallery-wrap {
+    column-count: 4;
+    column-gap: 4px;
+}
+
+.gallery-box img {
+    width: 100%;
+	transition: all 2s;
+}
+.gallery-box{
+	overflow: hidden;
+}
+.gallery-box img:hover{
+	
+	transform: scale(1.5);
+}
+/*****************************************************page-footer end**************************************************/
