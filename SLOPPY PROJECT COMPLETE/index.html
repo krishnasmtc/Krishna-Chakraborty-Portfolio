@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Sloppy Project</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+	<header class="sloppy-header">
+		<!--------------------------------header--------------------------------------------->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="logo float-left"><a href="#"><img src="images/logo.png"></a></div>
+				</div>
+				<div class="col-md-7 offset-md-3">
+					<ul class="menu float-right">
+						<li class="float-left "><a href="#"> Home</a></li>
+						<li class="float-left"><a href="#"> About</a></li>
+						<li class="float-left "><a href="#"> Our Menu</a></li>
+						<li class="float-left"><a href="#"> Gallery</a></li>
+						<li class="float-left "><a href="#"> Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</header>
+	<!-------------------------------------------------------------banner---------------------------------------------------------------->
+	<section class="banner-top text-center clearfix">
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleFade" data-slide-to="1"></li>
+				<li data-target="#carouselExampleFade" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/banner-main.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Chicken Corner</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							ullamco laboris nisi ut </p>
+						<div class="banner-button"><a class="book-now text-uppercase" href="#">book now</a></div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Chicken Corner</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							ullamco laboris nisi ut </p>
+						<div class="banner-button"><a class="book-now text-uppercase" href="#">book now</a></div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/banner3.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Chicken Corner</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							ullamco laboris nisi ut </p>
+						<div class="banner-button"><a class="book-now text-uppercase" href="#">book now</a></div>
+					</div>
+				</div>
+			</div>
+			<!--
+			<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+-->
+		</div>
+		<!--
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/banner-main.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Chicken Corner</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+						<div class="banner-button"><a class="book-now text-uppercase" href="#">book now</a></div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Chicken Corner</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+						<div class="banner-button"><a class="book-now text-uppercase" href="#">book now</a></div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/banner3.jpg" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Chicken Corner</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+						<div class="banner-button"><a class="book-now text-uppercase" href="#">book now</a></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+-->
+		<!--
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 ">
+					<h1>Chicken Corner</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et<br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+					<a class="book-now text-uppercase" href="#">book now</a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+-->
+	</section>
+
+	<!-----------------------------------------------------------------our-story---------------------------------------------------------->
+	<section class="our-story">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="story-text">
+						<h2>Our Story</h2>
+						<h3>Welcome to Sloppy Resturant</h3>
+						<p class="para-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+						</p>
+						<p class="para-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+						</p>
+						<div class="learn-button text-uppercase"><a href="#">learn more</a></div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="float-right img-fluid"> <img src="images/our-story.png"></div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<!------------------------------------------------discover---------------------------------------------------------------------------->
+	<section class="discover">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="text-center">Tasty &amp; Spicy Recipes</h3>
+					<h4 class="text-center">Discover Our Menu</h4>
+				</div>
+			</div>
+			<!-----------------------------------------------------logo-image----------------------------------------------------------------->
+
+
+
+
+			<div class="row">
+				<div class="col-md-12">
+
+					
+					<ul class="logo-img text-center">
+						<li class=><a href="#"><img src="images/canapes.png" width="50">
+								<br>starter</br>
+							</a></li>
+						<li class=><a href="#"><img src="images/cupcake.png" width="50">
+								<br>starter</br>
+							</a></li>
+						<li class=><a href="#"><img src="images/drink.png" width="50">
+								<br>starter</br>
+							</a></li>
+						<li class=><a href="#"><img src="images/meal.png" width="50">
+								<br>starter</br>
+							</a></li>
+						<li class=><a href="#"><img src="images/pizza.png" width="50">
+								<br>starter</br>
+							</a></li>
+						
+					</ul>
+
+
+
+
+				</div>
+
+			</div>
+			<!--------------------------------------------------------menu-text-------------------------------------------------->
+			<div class="row">
+				<div class="col-md-6">
+					<div class="menu-text">
+						<div class="shell">Scallop shell pies<span class="price">$12.00</span></div>
+						<div class="passion">Our passion for the excellent food</div>
+						<span class="bd"></span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="menu-text-right">
+						<div class="shell">Garlic chilli clams<span class="price">$12.00</span></div>
+						<div class="passion">Our passion for the excellent food</div>
+						<span class="bd"></span>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="menu-text">
+						<div class="shell">Garlic chilli clams<span class="price">$12.00</span></div>
+						<div class="passion">Our passion for the excellent food</div>
+						<span class="bd"></span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="menu-text-right">
+						<div class="shell">Sea bream ceviche<span class="price">$12.00</span></div>
+						<div class="passion">Our passion for the excellent food</div>
+						<span class="bd"></span>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="menu-text">
+						<div class="shell">Moules marinière<span class="price">$12.00</span></div>
+						<div class="passion">Our passion for the excellent food</div>
+						<span class="bd"></span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="menu-text-right">
+						<div class="shell">Seared tuna tataki<span class="price">$12.00</span></div>
+						<div class="passion">Our passion for the excellent food</div>
+						<span class="bd"></span>
+					</div>
+				</div>
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<!-----------------------------------------------------------------------------------reservation--------------------------------------------->
+	<section class="reservation text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4>Reservation</h4>
+					<h5 class="text-uppercase">book a table now!</h5>
+					<div class="book-button"><a href="#">book now</a></div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<!-------------------------------------------------food-gallery------------------------------------------------------------------>
+	<section class="food-gallery text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h5>Delicious Food Gallery</h5>
+					<h4>Our Gallery</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 offset-md-4">
+					<div class="all-button float-left"><a href="#">All</a></div>
+					<div class="book-fast float-left"><a href="#">Book Fast</a></div>
+					<div class="lunch float-left "><a href="#">Lunch</a></div>
+					<div class="dinner float-left"><a href="#">Dinner</a></div>
+					<div class="dessert float-left"><a href="#">Dessert</a></div>
+
+				</div>
+				<!--
+				<div class="col-md-2">
+					<div class="book-fast"><a href="#">Book Fast</a></div>
+				</div>
+				<div class="col-md-2">
+					<div class="lunch "><a href="#">Lunch</a></div>
+				</div>
+				<div class="col-md-2">
+					<div class="dinner"><a href="#">Dinner</a></div>
+				</div>
+				<div class="col-md-2 offset-md-1">
+					<div class="desser"><a href="#">Dessert</a></div>
+				</div>
+-->
+			</div>
+			<!--------------------------------------------------gallery------------------------------------------------------------->
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="gallery-img"><img src="images/gallery1.jpg" class="img-fluid">
+						<div class="overlay"><a href="#" class="gallery-lunch">Lunch</a></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="gallery-img"><img src="images/gallery2.jpg" class="img-fluid">
+						<div class="overlay"><a href="#" class="gallery-lunch">Lunch</a></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="gallery-img"><img src="images/gallery3.jpg" class="img-fluid">
+						<div class="overlay"><a href="#" class="gallery-lunch">Lunch</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="gallery-img"><img src="images/gallery4.jpg" class="img-fluid">
+						<div class="overlay"><a href="#" class="gallery-lunch">Lunch</a></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="gallery-img"><img src="images/gallery5.jpg" class="img-fluid">
+						<div class="overlay"><a href="#" class="gallery-lunch">Lunch</a></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="gallery-img"><img src="images/gallery6.jpg" class="img-fluid">
+						<div class="overlay"><a href="#" class="gallery-lunch">Lunch</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="gallery-img"><img src="images/gallery7.jpg" class="img-fluid">
+						<div class="overlay"><a href="#" class="gallery-lunch">Lunch</a></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="gallery-img"><img src="images/gallery8.jpg" class="img-fluid">
+						<div class="overlay"><a href="#" class="gallery-lunch">Lunch</a></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="gallery-img"><img src="images/gallery9.jpg" class="img-fluid">
+						<div class="overlay"><a href="#" class="gallery-lunch">Lunch</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="view-gallery"><a href="#">View All Gallery</a></div>
+				</div>
+
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<!--------------------------------------------------------------------chef---------------------------------------------------------------------->
+	<section class="chef text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h4>Our Expert Chefs </h4>
+					<h3>Our Team Members</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="team-img"><img src="images/team1.jpg">
+						<div class="overlay-2">
+							<div class="fb-icon float-left"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<div class="twitter-icon float-left"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<div class="linkedin-icon float-left"><i class="fa fa-linkedin" aria-hidden="true"></i>
+							</div>
+						</div>
+						<h5>Ava Farrington</h5>
+						<h6 class="text-uppercase">FOUNDER, CEO</h6>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="team-img"><img src="images/team2.jpg">
+						<div class="overlay-2">
+							<div class="fb-icon float-left"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<div class="twitter-icon float-left"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<div class="linkedin-icon float-left"><i class="fa fa-linkedin" aria-hidden="true"></i>
+							</div>
+						</div>
+						<h5>Ava Farrington</h5>
+						<h6 class="text-uppercase">FOUNDER, CEO</h6>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="team-img"><img src="images/team3.jpg">
+						<div class="overlay-2">
+							<div class="fb-icon float-left"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<div class="twitter-icon float-left"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<div class="linkedin-icon float-left"><i class="fa fa-linkedin" aria-hidden="true"></i>
+							</div>
+						</div>
+						<h5>Ava Farrington</h5>
+						<h6 class="text-uppercase">FOUNDER, CEO</h6>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="team-img"><img src="images/team4.jpg">
+						<div class="overlay-2">
+							<div class="fb-icon float-left"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<div class="twitter-icon float-left"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<div class="linkedin-icon float-left"><i class="fa fa-linkedin" aria-hidden="true"></i>
+							</div>
+						</div>
+						<h5>Ava Farrington</h5>
+						<h6 class="text-uppercase">FOUNDER, CEO</h6>
+					</div>
+				</div>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+	<!-----------------------------------------------------------------------------blog--------------------------------------------------------->
+	<section class="blog text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h5>Latest News At Sloppy</h5>
+					<h4>Our Blog &amp; Event</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="blog-image"><a href="#"><img src="images/blog-1.jpg" class="img-fluid"></a>
+						<div class="blog-text">
+							<p class="quick">Quick and Easy Ginger Beef and<br>
+								Onion Stir Fry</p>
+							<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+								ut labore et.</p>
+							<div class="date">December 10, 2020
+								<span class="read-story">Read Story</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blog-image"><a href="#"><img src="images/blog2.jpg" class="img-fluid"></a>
+						<div class="blog-text">
+							<p class="quick">Quick and Easy Ginger Beef and<br>
+								Onion Stir Fry</p>
+							<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+								ut labore et.</p>
+							<div class="date">December 10, 2020
+								<span class="read-story">Read Story</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="blog-image"><a href="#"><img src="images/blog3.jpg" class="img-fluid"></a>
+						<div class="blog-text">
+							<p class="quick">Quick and Easy Ginger Beef and<br>
+								Onion Stir Fry</p>
+							<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+								ut labore et.</p>
+							<div class="date">December 10, 2020
+								<span class="read-story">Read Story</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="blog-button">
+						<a href="#">View more blog</a>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+</body>
+<footer class="footer-top">
+	<div class="container">
+		<div class="top-footer">
+			<div class="row">
+				<div class="col-md-3">
+					<ul class="footer-left">
+						<li class="footer-img"><a href="#"><img src="images/footer-logo.png"> </a></li>
+						<li>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna.
+								aliqua. Ut enim ad minim veniam, </p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer-left">
+						<li class="footer-heading text-center"><a href="#">Gallery</a></li>
+						<li>
+							<a href="#" class="footer-box-img"><img src="images/footer1.jpg"></a>
+							<a href="#" class="footer-box-img"><img src="images/footer2.jpg"></a>
+							<a href="#" class="footer-box-img "><img src="images/footer3.jpg" class="mt-2"></a>
+							<a href="#" class="footer-box-img"><img src="images/footer4.jpg" class="mt-2"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer-left text-center">
+						<li class="footer-heading "><a href="#">Social Links</a></li>
+						<li class="float-left footer-icon"> <a href="#" class="footer-box-logo"><img
+									src="images/facebook.png" width="35"></a></li>
+						<li class="float-left footer-icon"> <a href="#" class="footer-box-logo"><img
+									src="images/twitter.png" width="35"></a></li>
+						<li class="float-left footer-icon"> <a href="#" class="footer-box-logo "><img
+									src="images/linkedin.png" width="35"></a></li>
+						<li class="float-left footer-icon"> <a href="#" class="footer-box-logo"><img
+									src="images/instagram.png" width="35"></a></li>
+
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer-left">
+						<li class="footer-heading"><a href="#">Get in touch</a></li>
+						<li class="footer-address"><a href="#"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Sloppy
+								Restaurant, 20th
+								Ave, 230909, Canada</a></li>
+						<li class="footer-address"><a href="#"><i class="fa fa-phone mr-2" aria-hidden="true"></i>Phone: +505
+								307 222-33 </a></li>
+						<li class="footer-address"><a href="#"><i class="fa fa-envelope mr-2" aria-hidden="true"></i>Email:
+								info@example.com</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="footer-bottom">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12"><h6 class="footer-address-bottom"> Sloppy @ 2021 - Designed by Cute Themes.</div></h6>
+	</div>
+
+	<div class="clearfix"></div>
+</div>
+
+	</div>
+</footer>
+
+
+
+</html>
